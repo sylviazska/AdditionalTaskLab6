@@ -1,0 +1,175 @@
+name
+
+    e.g. "Common Blackbird", "Honeybee", "Gray Wolf", "Sunflower"
+
+group (at least 8 different ones)
+
+    "mammals"
+
+    "birds"
+
+    "fish"
+
+    "insects"
+
+    "bacteria"
+
+    "fungi"
+
+    "plants"
+
+    "reptiles"
+
+    "amphibians"
+
+    "cephalopods" (octopuses, squids)
+
+    "arachnids" (spiders, scorpions)
+
+    "crustaceans" (crabs, lobsters)
+
+lives (social structure - decides which class the organism goes into)
+
+    "solitary" (lives alone -> Loner class)
+
+    "pair" (lives in pairs -> GroupMember class)
+
+    "group" (lives in packs, flocks, or schools -> GroupMember class)
+
+    "colony" (lives in a colony or hive -> ColonyMember class)
+
+communication (how they signal to each other)
+
+    "vocal" (sounds, singing, calls)
+
+    "chemical" (pheromones or chemical signals)
+
+    "visual" (body posture, colors, wing displays)
+
+    "scent" (marking territory with smell)
+
+    "dance" (waggle dance, like bees)
+
+    "touch" (physical contact or vibrations)
+
+    "electrical" (electric pulses, like some fish)
+
+    "none" (no active communication, like simple plants)
+
+cooperation (how they work together)
+
+    "hunting" (catching prey together)
+
+    "foraging" (searching for food together)
+
+    "migration" (traveling long distances together)
+
+    "parenting" (raising young together)
+
+    "building" (making nests, dams, or mounds)
+
+    "guarding" (watching out for predators and warning others)
+
+    "schooling" (swimming together in tight formations)
+
+    "farming" (growing food, like leafcutter ants growing fungi)
+
+    "huddling" (staying close together for warmth, like penguins)
+
+    "quorum" (coordinating based on population density, like bacteria)
+
+    "symbiosis" (working together with a different species)
+
+    "none" (no cooperation, mostly loners)
+
+movement (how they move around)
+
+    "flying"
+
+    "walking" (walking or running)
+
+    "swimming"
+
+    "climbing" (moving up trees or rocks, like treecreepers)
+
+    "crawling" (creeping or slithering)
+
+    "digging" (burrowing underground)
+
+    "gliding" (soaring on air currents or gliding on surfaces)
+
+    "growing" (spreading out by growing, like fungal mycelium)
+
+    "stationary" (stays in one spot, like plants)
+
+navigation_cue (what they use to find their way — used by organisms_using(cue))
+
+    "vision" (eyesight and landmarks)
+
+    "smell" (following scents)
+
+    "sun" (using the sun's position)
+
+    "stars" (navigating by stars at night, like migratory birds)
+
+    "magnetic" (sensing Earth's magnetic field)
+
+    "echolocation" (bouncing sound waves off objects, like bats or dolphins)
+
+    "hearing" (locating things by sound, like owls)
+
+    "chemical" (following chemical gradients, like bacteria or fungi)
+
+    "touch" (feeling the way with whiskers or limbs)
+
+    "heat" (sensing body heat or infrared, like pit vipers)
+
+food_strategy (how they get food or energy)
+
+    "predator" (hunts other animals)
+
+    "herbivore" (eats plants, seeds, or fruit)
+
+    "omnivore" (eats both plants and animals)
+
+    "insectivore" (eats insects)
+
+    "piscivore" (eats fish, like kingfishers)
+
+    "decomposer" (breaks down dead organic matter, like fungi or bacteria)
+
+    "photosynthesis" (makes energy from sunlight, like plants)
+
+    "filter" (filters tiny food particles from water, like herring)
+
+    "parasite" (lives on or in a host)
+
+    "symbiont" (gets nutrients by partnering with another organism)
+
+defense (how they protect themselves)
+
+    "camouflage" (blending into the background)
+
+    "speed" (running or flying away fast)
+
+    "group" (safety in numbers)
+
+    "mobbing" (harassing a predator together, like small birds)
+
+    "alarm" (giving warning calls)
+
+    "toxin" (poison or venom)
+
+    "sting" (stinging)
+
+    "bite" (biting or snapping)
+
+    "shell" (hard armor or shell)
+
+    "thorns" (spikes or thorns)
+
+    "burrow" (hiding underground)
+
+    "biofilm" (protective slime layer, like bacteria)
+
+    "size" (being too big for most predators)
