@@ -3,19 +3,14 @@
 # TEMPLATE
 # {"name": "", "group": "", "lives": "", "communication": "", "cooperation": "", "movement": "", "navigation_cue": "", "food_strategy": "", "defense": "", "source": ""},
 organisms = [
-    # Birds
-    {
-        "name": "Blackbird",
-        "group": "birds",
-        "lives": "",
-        "communication": "",
-        "cooperation": "",
-        "movement": "",
-        "navigation_cue": "",
-        "food_strategy": "",
-        "defense": "",
-        "source": "",
-    },
+    # Birds  // source is personal knowledge, these are my favourite birds that ive seen irl (i do photography and especially birds)
+    {"name": "Common Blackbird", "group": "birds", "lives": "pair", "communication": "vocal", "cooperation": "parenting", "movement": "flying", "navigation_cue": "vision", "food_strategy": "omnivore", "defense": "alarm", "source": "personal knowledge"},
+    {"name": "Eurasian Bullfinch", "group": "birds", "lives": "pair", "communication": "vocal", "cooperation": "foraging", "movement": "flying", "navigation_cue": "vision", "food_strategy": "herbivore", "defense": "camouflage", "source": "personal knowledge"},
+    {"name": "Coal Tit", "group": "birds", "lives": "group", "communication": "vocal", "cooperation": "foraging", "movement": "flying", "navigation_cue": "vision", "food_strategy": "insectivore", "defense": "mobbing", "source": "personal knowledge"},
+    {"name": "Common Kingfisher", "group": "birds", "lives": "solitary", "communication": "vocal", "cooperation": "none", "movement": "flying", "navigation_cue": "vision", "food_strategy": "piscivore", "defense": "speed", "source": "personal knowledge"},
+    {"name": "Eurasian Treecreeper", "group": "birds", "lives": "solitary", "communication": "vocal", "cooperation": "none", "movement": "climbing", "navigation_cue": "touch", "food_strategy": "insectivore", "defense": "camouflage", "source": "personal knowledge"},
+    {"name": "European Bee-eater", "group": "birds", "lives": "colony", "communication": "vocal", "cooperation": "hunting", "movement": "flying", "navigation_cue": "sun", "food_strategy": "insectivore", "defense": "group", "source": "personal knowledge"},
+
     # Mammals
     {
         "name": "Gray Wolf",
@@ -89,6 +84,7 @@ organisms = [
         "defense": "alarm",
         "source": "https://animaldiversity.org/accounts/Suricata_suricatta/",
     },
+
     # Fish
     {
         "name": "Atlantic Herring",
@@ -163,7 +159,6 @@ organisms = [
         "source": "https://www.calacademy.org/learn-explore/creature-closeups/spotted-garden-eel",
     },
     # Insects
-    [
         {
             "name": "Western Honeybee",
             "group": "insects",
@@ -236,5 +231,22 @@ organisms = [
             "defense": "speed",
             "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13585144/",
         },
-    ],
+
+    # Plants
+    {"name": "Orchid", "group": "plants", "lives": "solitary", "communication": "chemical", "cooperation": "symbiosis", "movement": "stationary", "navigation_cue": "sun", "food_strategy": "photosynthesis", "defense": "camouflage", "source": "AI-generated"},
+    {"name": "Jasmine", "group": "plants", "lives": "group", "communication": "chemical", "cooperation": "none", "movement": "climbing", "navigation_cue": "sun", "food_strategy": "photosynthesis", "defense": "toxin", "source": "AI-generated"},
+    {"name": "Chestnut Tree", "group": "plants", "lives": "group", "communication": "chemical", "cooperation": "symbiosis", "movement": "stationary", "navigation_cue": "sun", "food_strategy": "photosynthesis", "defense": "thorns", "source": "AI-generated"},
+    {"name": "Maple Tree", "group": "plants", "lives": "group", "communication": "chemical", "cooperation": "symbiosis", "movement": "stationary", "navigation_cue": "sun", "food_strategy": "photosynthesis", "defense": "toxin", "source": "AI-generated"},
+
+    # Arachnids
+    {"name": "Goliath Birdeater Tarantula", "group": "arachnids", "lives": "solitary", "communication": "touch", "cooperation": "none", "movement": "crawling", "navigation_cue": "touch", "food_strategy": "predator", "defense": "burrow", "source": "AI-generated"},
+    {"name": "Black Widow Spider", "group": "arachnids", "lives": "solitary", "communication": "touch", "cooperation": "none", "movement": "crawling", "navigation_cue": "touch", "food_strategy": "predator", "defense": "toxin", "source": "AI-generated"},
+    {"name": "Jumping Spider", "group": "arachnids", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "crawling", "navigation_cue": "vision", "food_strategy": "predator", "defense": "speed", "source": "AI-generated"},
+    {"name": "Social Huntsman Spider", "group": "arachnids", "lives": "colony", "communication": "touch", "cooperation": "hunting", "movement": "crawling", "navigation_cue": "touch", "food_strategy": "predator", "defense": "group", "source": "AI-generated"},
+
+    # Reptiles
+    {"name": "Leopard Gecko", "group": "reptiles", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "crawling", "navigation_cue": "smell", "food_strategy": "insectivore", "defense": "camouflage", "source": "AI-generated"},
+    {"name": "Veiled Chameleon", "group": "reptiles", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "climbing", "navigation_cue": "vision", "food_strategy": "insectivore", "defense": "camouflage", "source": "AI-generated"},
+    {"name": "Loggerhead Sea Turtle", "group": "reptiles", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "swimming", "navigation_cue": "magnetic", "food_strategy": "omnivore", "defense": "shell", "source": "AI-generated"},
+    {"name": "Nile Crocodile", "group": "reptiles", "lives": "group", "communication": "vocal", "cooperation": "hunting", "movement": "swimming", "navigation_cue": "vision", "food_strategy": "predator", "defense": "bite", "source": "AI-generated"},
 ]
