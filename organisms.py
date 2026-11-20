@@ -249,4 +249,9 @@ organisms = [
     {"name": "Veiled Chameleon", "group": "reptiles", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "climbing", "navigation_cue": "vision", "food_strategy": "insectivore", "defense": "camouflage", "source": "AI-generated"},
     {"name": "Loggerhead Sea Turtle", "group": "reptiles", "lives": "solitary", "communication": "visual", "cooperation": "none", "movement": "swimming", "navigation_cue": "magnetic", "food_strategy": "omnivore", "defense": "shell", "source": "AI-generated"},
     {"name": "Nile Crocodile", "group": "reptiles", "lives": "group", "communication": "vocal", "cooperation": "hunting", "movement": "swimming", "navigation_cue": "vision", "food_strategy": "predator", "defense": "bite", "source": "AI-generated"},
+
+    # Fungi
+    {"name": "Penny Bun", "group": "fungi", "lives": "solitary", "communication": "chemical", "cooperation": "symbiosis", "movement": "growing", "navigation_cue": "chemical", "food_strategy": "symbiont", "defense": "camouflage", "source": "AI-generated"},
+    {"name": "Slippery Jack", "group": "fungi", "lives": "group", "communication": "chemical", "cooperation": "symbiosis", "movement": "growing", "navigation_cue": "chemical", "food_strategy": "symbiont", "defense": "camouflage", "source": "AI-generated"},
+    {"name": "Fly Agaric", "group": "fungi", "lives": "solitary", "communication": "chemical", "cooperation": "symbiosis", "movement": "stationary", "navigation_cue": "chemical", "food_strategy": "symbiont", "defense": "toxin", "source": "AI-generated"},
 ]
