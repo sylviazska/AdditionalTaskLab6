@@ -1,0 +1,11 @@
+Findings
+
+How do group animals find food and their way, compared with loners?
+
+In our dataset, some group animals like gray wolves, bottlenose dolphins work together to catch prey
+while loners like snow leopards hunt on alone.
+
+Group animals use different cues to find their way. For instance gray wolves use their sense of smell while
+bottlenose dolphins use echolocation.
+
+Loners also use different cues like bold jumping spiders use vision while loggerhead sea turtles use Earth's magnetic field.
